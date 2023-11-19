@@ -13,20 +13,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:background="@drawable/thin_border_radius"
         android:iconifiedByDefault="false"
         android:padding="4dp"
         android:queryHint="Search Programming language" />
 
     <TextView
         android:id="@+id/textview_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/thin_border_radius"
+        android:padding="8dp" />
 
     <!--List View from which data is to be searched
          for different programming languages-->
     <ListView
         android:id="@+id/listview_languages"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/thin_border_radius" />
 
 </LinearLayout>
